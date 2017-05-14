@@ -78,3 +78,12 @@ $(function(){
         }
     });
 });
+
+//hide the button after
+    var button = document.getElementById('loadm')
+    button.addEventListener('click',hideshow,false);
+
+    function hideshow() {
+        document.getElementById('hidden-div').style.display = 'block';
+        this.style.display = 'none'
+    };
