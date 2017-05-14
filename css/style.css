@@ -43,9 +43,15 @@ a.active {
   color: #d8b600;
   outline: none;
 }
+h3 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -53,9 +59,7 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
-hr {
 
-}
 hr.star-light,
 hr.star-primary {
   padding: 0;
